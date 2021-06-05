@@ -1,0 +1,24 @@
+[http]
+host = "localhost"
+port = 9999
+#开启性能分析，路由：/debug/pprof/
+pprof = 1
+
+#日志
+[log]
+path = "./logs"
+
+[mysql]
+host = "127.0.0.1"
+user = "root"
+password = "root"
+database = "cronjob"
+
+#redis配置
+#[redis]
+#address = "localhost:6379"
+#auth = "123456"
+#database = 0
+#连接池
+#conn_min = 3
+#conn_max = 10
